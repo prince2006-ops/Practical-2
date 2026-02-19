@@ -14,12 +14,12 @@ int main() {
     
     total = food + leisure + clothes + RENT + travel;
     
-    printf("\nFood: £%.2f\n", food);
-    printf("Leisure: £%.2f\n", leisure);
-    printf("Clothes: £%.2f\n", clothes);
-    printf("Rent: £%.2f (fixed)\n", RENT);
-    printf("Travel: £%.2f\n", travel);
-    printf("TOTAL: £%.2f\n", total);
+    printf("\nFood: %.2f\n", food);
+    printf("Leisure: %.2f\n", leisure);
+    printf("Clothes: %.2f\n", clothes);
+    printf("Rent: %.2f (fixed)\n", RENT);
+    printf("Travel: %.2f\n", travel);
+    printf("TOTAL: %.2f\n", total);
           
     return 0; 
 }
