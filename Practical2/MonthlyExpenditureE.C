@@ -1,7 +1,7 @@
 #include<stdio.h> 
 int main() {    
     float food, leisure, clothes, travel, total;
-    const float RENT = 650.00;  // Fixed accommodation
+    const float RENT = 650.00;  // Fixed accommodation as per question
  
     printf("Enter food: ");
     scanf("%f", &food);
@@ -17,7 +17,7 @@ int main() {
     printf("\nFood: %.2f\n", food);
     printf("Leisure: %.2f\n", leisure);
     printf("Clothes: %.2f\n", clothes);
-    printf("Rent: %.2f (fixed)\n", RENT);
+    printf("Rent: %.2f \n", RENT);
     printf("Travel: %.2f\n", travel);
     printf("TOTAL: %.2f\n", total);
           
